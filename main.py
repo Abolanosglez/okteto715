@@ -556,7 +556,7 @@ def onmessage(update,bot:ObigramClient):
 
         if '/start' in msgText:
             
-            msg = 'Bienvenido a mi rey espero que te guste mi bot de descarga y subidas 👨‍💻☁️ dueño y creador @rockstar984\n\n'
+            msg = 'Bienvenid@ espero que te guste mi bot de descarga y subidas 👨‍💻☁️ Dev Abolanos3\n\n'
             msg+= 'Para saber como funciona esta versión solo use: /help\n'
             bot.editMessageText(message,msg)
         elif '/files' == msgText and user_info['cloudtype']=='moodle':
